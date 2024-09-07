@@ -1,0 +1,156 @@
+
+
+/* common css start */
+body{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262 ;
+}
+/* common css end */
+
+/* header start */
+header{
+    padding: 30px 0;
+    border: 1ps solid;
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.logo{
+    margin-top: 9px;
+    float: left;
+    width: 12%;
+    /* border: 1px solid; */
+}
+.logo a {
+    display: block;
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 65%;
+    /* border: 1px solid; */
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0 50px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+    margin-right:0 ;
+}
+
+/* header end */
+/* banner start */
+
+.b_img img{
+    width: 100%;
+}
+/* banner end */
+/* gataway start */
+.getaway{
+    padding: 100px 0;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.c_light{
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; 
+}
+.c_title{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin: 0;
+    line-height: 24px;
+}
+.g_link{
+    margin-top: 40px;
+    display: block;
+    color: #626262;
+    text-decoration: none;
+}
+
+/* gataway end */
+/* news start */
+.news{
+    background-color: #f0f0f0;
+    /* min-height: 400px; */
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+}
+.title{
+    font-weight: 400;
+    font-size: 30px;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px ;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.s_form input{
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #626262;
+    width: 360px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+    padding-left: 5px ;
+    padding-right: 15px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 13px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+
+
+
+/* news end */
